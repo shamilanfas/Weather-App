@@ -63,8 +63,9 @@
     width: 26px;
     margin-top: 10px;
 }
-@media (max-width:750px) {
+@media (max-width:740px) {
     .weather{
-        max-height: max-content;
+        max-width: max-content;
+        
     }
 }
