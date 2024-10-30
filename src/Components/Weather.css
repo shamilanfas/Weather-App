@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: sticky;
 }
 .search-bar{
     display: flex;
@@ -65,7 +66,26 @@
 }
 @media (max-width:740px) {
     .weather{
-        max-width: max-content;
         
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;     
+    }
+    .weather-icon{
+        width: 100px;
+        margin: 20px 0;
+    }
+    .tempreture{
+        font-size: 80px;
+        line-height: 1;
+    }
+    .search-bar{
+        gap: 8px;
+    }
+    .search-bar input{
+        height: 50px;
+        border-radius: 40px;
+        font-size: 15px;
     }
 }
